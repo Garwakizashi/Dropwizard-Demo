@@ -1,0 +1,1 @@
+SELECT * FROM employees.employees where emp_no = :id;

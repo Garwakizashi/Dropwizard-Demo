@@ -1,0 +1,12 @@
+server:
+  applicationConnectors:
+  - type: http
+    port: 8000
+
+# Database settings.
+# Will need to change this depending on database url, user, and password
+database:
+  url: jdbc:mysql://localhost:3306/employees
+  user: test_user
+  password: password123
+  driverClass: com.mysql.jdbc.Driver
